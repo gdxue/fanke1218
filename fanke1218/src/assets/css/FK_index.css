@@ -1,0 +1,262 @@
+#main1{
+	width: 100%;
+	height: 100%;
+}
+#main1 .FK_index{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: #f2f2f2;
+}
+#main1 .index_top{
+	width: 100%;
+	height: .48rem;
+	background: #b81c22;
+	z-index: 2;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#main1 .search_form{
+	position: absolute;
+	left: 3%;
+	top: .09rem;
+	width: 85%;
+	height: .3rem;
+	line-height: .4rem;
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+#main1 .search_form .search-icon{
+	position: absolute;
+	left: 2%;
+	top: .07rem;
+	display: inline-block;
+	width: .18rem;
+	height: .18rem;
+	border: 0;
+	background: url(http://i10.m.vancl.com/Content/H5/img/search2.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+#main1 .search-input{
+	font-size: inherit;
+	position: absolute;
+	top: .08rem;
+	left: 12%;
+	border: 0 none;
+	display: inline-block;
+}
+#main1 .index-message{
+	position: absolute;
+	top: .15rem;
+	width: .2159rem;
+	height: .1559rem;
+	right: 3%;
+	background: url(http://i10.m.vancl.com/Content/H5/img/msg3.png) no-repeat;
+	cursor: pointer;
+	background-size: .2159rem .1559rem;
+}
+#main1 .hasNewMsg{
+	position: absolute;
+	top: -.03rem;
+	right: -10%;
+	border: .02rem solid #fff;
+	border-radius: 50%;
+}
+#main1 .index_lb{
+	width: 100%;
+	height: 2.3555rem;
+	margin-top: .48rem;
+}
+#main1 .index_lb a{
+	width: 100%;
+}
+#main1 .index_lb img{
+	width: 100%;
+	max-width: 100%;
+}
+#main1 .t1000{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 2px;
+}
+#main1 .t1001{
+	width: 50%;
+	float: left;
+}
+#main1 .seckill-txt{
+	display: block;
+	color: #000;
+	background: #fff;
+	text-align: center;
+	margin: .04rem 0;
+	padding: .04rem 0;
+	position: relative;
+	-webkit-tap-highlight-color: transparent;
+}
+#main1 .clock-ison{
+	display: inline-block;
+	width: .168rem;
+	height: .168rem;
+	vertical-align: text-bottom;
+	background: url('http://i10.m.vancl.com/Content/H5/img/clock.png') no-repeat top center;
+	background-size: contain;
+}
+#main1 .index-txt{
+	color: #b81c22;
+	font-size: .16rem;
+	font-weight: bold;
+}
+#main1 .enter-seckill{
+	position: absolute;
+	top: .15rem;
+	color: #b81c22;
+	right: 3%;
+	width: .84rem;
+	height: .26rem;
+	background: url('http://i10.m.vancl.com/Content/H5/img/right-arrow.png') no-repeat 100% .05rem;
+	background-size: .1rem .1rem;
+}
+#main1 .index-clock{
+	margin-top: .06rem;
+}
+#main1 .index-clock .time{
+	color: #000;
+	font-weight: bold;
+	font-size: .15rem;
+}
+#main1 .SKContent, #main1 .SKContent1, #main1 .SKContent2, #main1 .SKContent3, #main1 .SKContent4{
+	width: 100%;
+}
+#main1 .SKContent img{
+	width: 100%;
+	overflow: hidden;
+}
+#main1 .SKContent a{
+	width: 100%;
+}
+
+#main1 .t10{
+	width: 100%;
+	overflow: hidden;
+	margin-top: .02rem;
+}
+#main1 .t1001 a{
+	width: 50%;
+}
+#main1 .t1001 img{
+	width: 100%;
+}
+#main1 .t10 a{
+	width: 100%;
+}
+#main1 .t10 img{
+	width: 100%;
+}
+#main1 .blank{
+	width: 100%;
+	height: .52rem;
+}
+/******* 底部 *******/
+#main1 .footer{
+	width: 100%;
+	height: .52rem;
+	position: fixed;
+	z-index: 2;
+	bottom: -.01rem;
+	left: 0;
+	background: #fff;
+	border-top: 1px solid #999;
+}
+#main1 .footer a{
+	display: inline-block;
+	width: 19%;
+	height: 100%;
+	text-align: center;
+}
+#main1 .footer span{
+	width: .36rem;
+	height: .48rem;
+	display: inline-block;
+	background-image: url(../img/navBgimgNew.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: .36rem 5rem;
+	-webkit-transform: transform(-50%, -50%);
+	margin-top: .04rem;
+}
+#main1 .footer-home-active{
+	background-position: 0rem -2.5rem;
+}
+#main1 .footer-search{
+	background-position: 0rem -.5rem;
+}
+#main1 .footer-Tshirt{
+	background-position: 0rem -1rem;
+}
+#main1 .footer-car{
+	background-position: 0rem -1.5rem;
+}
+#main1 .footer-mine{
+	background-position: 0rem -2rem;
+}
+
+
+/****************/
+#main1 .allAndtop{
+	width: 100%;
+	height: auto;
+	margin-top: .02rem;
+	overflow: hidden;
+	margin-bottom: .32rem;
+}
+#main1 .lookmore{
+	width: 50%;
+	float: left;
+}
+#main1 .lookmore img{
+	width: 100%;
+}
+#main1 .login{
+	width: 100%;
+	padding: .35rem 0;
+	text-align: center;
+}
+#main1 .login i{
+	font-style: normal;
+}
+#main1 .user-info{
+	background: #fff;
+	width: 1.5702rem;
+	height: .34rem;
+	line-height: .34rem;
+	margin-left: 28%;
+	color: #4c4c4c;
+}
+#main1 .index_foot{
+	width: 100%;
+	height: 1.2rem;
+	text-align: center;
+}
+#main1 .index_foot ul{
+	display: inline-block;
+	border-bottom: 1px solid #4c4d4d;
+	border-top: 1px solid #4c4d4d;
+	padding: .12rem 0;
+	zoom: 1;
+}
+#main1 .index_foot li{
+	float: left;
+}
+#main1 .index_foot img{
+	width: .42rem;
+	height: .6239rem;
+	padding: 0 .1rem;
+}
+#main1 .nav_bottom h3{
+	font-weight: normal;
+	font-size: .12rem;
+}

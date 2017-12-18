@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 100px;
+}
+body{
+	/*background: #f4f4f4;*/
+	font-size: .14rem;
+	color: #333;
+	font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+}
+ol,ul{
+	list-style: none;
+}
+img{
+	outline: 0;
+	resize: none;
+	vertical-align: middle;
+}
+a{
+	color: #999;
+	text-decoration: none;
+}
+a:hover{
+	color: #999;
+}
+input{
+	outline: none;
+}
